@@ -11,5 +11,6 @@ public class Main {
     https://javarush.ru/groups/posts/2546-java-i-blokcheyn-naydetsja-li-v-tekhnologii-budujshego-mesto-dlja-java-koda
 
 	 */
+        System.out.println("sss");
     }
 }
