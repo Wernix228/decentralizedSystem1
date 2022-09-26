@@ -1,4 +1,4 @@
-package Wernix;
+package com.samsung.Wernix;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Main {
             System.out.print("Введите второе значение: ");
             double b = sc.nextDouble();
 
-        if(a >= 0 && b >= 0){
+        if(a > 0 && b > 0){
             System.out.println("Площадь квадрата: " + squareArea(a));
             System.out.println("Периметр квадрата: " + squarePer(a));
             System.out.println("Площадь прямоугольника: " + rectangleArea(a,b));
