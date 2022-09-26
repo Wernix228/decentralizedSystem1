@@ -8,7 +8,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-            System.out.print("Введите первое значение: ");
+            System.out.print("Введите первое значение:");
             double a = sc.nextDouble();
             System.out.print("Введите второе значение: ");
             double b = sc.nextDouble();
@@ -21,7 +21,7 @@ public class Main {
         }else System.out.println("Недопустимые значения");
     }
     public static double squareArea(double a) {
-        return Math.pow(a, 2);
+        return Math.pow(a, 2); 
     }
     public static double squarePer(double a){
         return a * 4;
