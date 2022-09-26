@@ -8,7 +8,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-            System.out.print("Введите первое значение:");
+            System.out.print("Введите первое значение: ");
             double a = sc.nextDouble();
             System.out.print("Введите второе значение: ");
             double b = sc.nextDouble();
